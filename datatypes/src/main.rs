@@ -26,4 +26,23 @@ fn main() {
     println!("the value of character is {}", character);
     println!("the value of float is {}  ", real);
     println!("the value of boolean is {}  ", result);
+
+
+    // Operators
+
+    let number_sum_one: i32 = 10;
+    let number_sum_two: i32 = 100;
+
+    // Operators like as + - * / %
+    let result: i32 = number_sum_one + number_sum_two;
+
+    // Relationals Operators > < >= <= == !=
+    let result: bool = result != 100;
+    println!("the value of result is {}", result);
+
+    // Logical Operators || &&
+    let result: bool = 20 + 10 > 100 || true;
+
+    println!("the value of result is {}", result);
+
 }
